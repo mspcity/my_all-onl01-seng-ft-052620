@@ -6,4 +6,5 @@ def my_all?(collection)
   while index collection.length
     yield collection[index]
     index += 1
+  end
 end
